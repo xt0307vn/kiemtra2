@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "347563074148",
+    "project_id": "android-firebase-e63f9",
+    "storage_bucket": "android-firebase-e63f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347563074148:android:5d83f50db5be827298b571",
+        "android_client_info": {
+          "package_name": "com.example.android_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347563074148-4h69ffomp11asn84dr5b5f7vetq3d6el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAznZMoriD9pOiVDgHYsbkUMk0khYu3uWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347563074148-4h69ffomp11asn84dr5b5f7vetq3d6el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347563074148:android:251c569495cf0c3598b571",
+        "android_client_info": {
+          "package_name": "com.example.kiemtra2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347563074148-4h69ffomp11asn84dr5b5f7vetq3d6el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAznZMoriD9pOiVDgHYsbkUMk0khYu3uWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347563074148-4h69ffomp11asn84dr5b5f7vetq3d6el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

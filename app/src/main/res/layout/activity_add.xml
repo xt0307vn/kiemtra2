@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm thuốc"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/tenkhoahoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên khoa học"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/tenthuonggoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên thường gọi"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/dactinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập đặc tính"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/congdung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập công dụng"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/lieudung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập liều dùng"/>
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/luuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lưu ý"/>
+
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/hinhanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập liên kết hình ảnh"/>
+
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="49dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/themthuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm thuốc"
+            android:textSize="20sp"
+            android:background="#00bcd4"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
